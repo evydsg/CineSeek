@@ -11,6 +11,11 @@
 		8784E4382C0299FF00EE90A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E4372C0299FF00EE90A7 /* ContentView.swift */; };
 		8784E43A2C029A0100EE90A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8784E4392C029A0100EE90A7 /* Assets.xcassets */; };
 		8784E43D2C029A0100EE90A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8784E43C2C029A0100EE90A7 /* Preview Assets.xcassets */; };
+		8784E4462C029AFE00EE90A7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E4452C029AFE00EE90A7 /* Movie.swift */; };
+		8784E44A2C029BDA00EE90A7 /* MovieServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E4492C029BDA00EE90A7 /* MovieServices.swift */; };
+		8784E44C2C029E6D00EE90A7 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E44B2C029E6D00EE90A7 /* MovieStore.swift */; };
+		8784E44E2C02A2A700EE90A7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E44D2C02A2A700EE90A7 /* Utils.swift */; };
+		8784E4502C03B78000EE90A7 /* Movie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E44F2C03B78000EE90A7 /* Movie+Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8784E4372C0299FF00EE90A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8784E4392C029A0100EE90A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8784E43C2C029A0100EE90A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8784E4452C029AFE00EE90A7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8784E4492C029BDA00EE90A7 /* MovieServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServices.swift; sourceTree = "<group>"; };
+		8784E44B2C029E6D00EE90A7 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		8784E44D2C02A2A700EE90A7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8784E44F2C03B78000EE90A7 /* Movie+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		8784E4342C0299FF00EE90A7 /* CineSeek */ = {
 			isa = PBXGroup;
 			children = (
+				8784E4522C03B7A200EE90A7 /* Resources */,
+				8784E4482C029BB900EE90A7 /* Services */,
+				8784E4442C029AE200EE90A7 /* Models */,
 				8784E4352C0299FF00EE90A7 /* CineSeekApp.swift */,
 				8784E4372C0299FF00EE90A7 /* ContentView.swift */,
 				8784E4392C029A0100EE90A7 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				8784E43C2C029A0100EE90A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8784E4442C029AE200EE90A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8784E4452C029AFE00EE90A7 /* Movie.swift */,
+				8784E44F2C03B78000EE90A7 /* Movie+Stub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8784E4482C029BB900EE90A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8784E4492C029BDA00EE90A7 /* MovieServices.swift */,
+				8784E44D2C02A2A700EE90A7 /* Utils.swift */,
+				8784E44B2C029E6D00EE90A7 /* MovieStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8784E4522C03B7A200EE90A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +178,11 @@
 			files = (
 				8784E4382C0299FF00EE90A7 /* ContentView.swift in Sources */,
 				8784E4362C0299FF00EE90A7 /* CineSeekApp.swift in Sources */,
+				8784E44A2C029BDA00EE90A7 /* MovieServices.swift in Sources */,
+				8784E4502C03B78000EE90A7 /* Movie+Stub.swift in Sources */,
+				8784E4462C029AFE00EE90A7 /* Movie.swift in Sources */,
+				8784E44C2C029E6D00EE90A7 /* MovieStore.swift in Sources */,
+				8784E44E2C02A2A700EE90A7 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
