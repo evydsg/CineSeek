@@ -35,6 +35,10 @@ class ImageLoader: ObservableObject
                 {
                     return
                 }
+                self.imageCache.setObject(image, forKey: urlString as AnyObject)
+                DispatchQueue.main.async { [weak self] in 
+                    self?.image = image
+                }
             }catch
             {
                 print(error.localizedDescription)
